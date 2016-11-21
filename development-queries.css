@@ -1,7 +1,7 @@
 //These will draw an outline around all your elements.
 //The color of the outline will change as your viewport size changes.
 //Outline is used instead of border, as it takes up no additional space on the page.
-//Put these at the end of your Sass file.
+//Put these at the end of your CSS / Sass file.
 //Comment them out when you don't want them to appear
 
 @media (min-width: 768px) {
