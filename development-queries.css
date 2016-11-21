@@ -1,0 +1,26 @@
+//These will draw an outline around all your elements.
+//The color of the outline will change as your viewport size changes.
+//Outline is used instead of border, as it takes up no additional space on the page.
+//Put these at the end of your Sass file.
+//Comment them out when you don't want them to appear
+
+@media (min-width: 768px) {
+ * {
+   outline: 1px solid red !important;
+ }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) {
+ * {
+   outline: 1px solid orange !important;
+ }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 1200px) {
+ * {
+   outline:1px solid dodgerblue!important;
+ }
+}
+
