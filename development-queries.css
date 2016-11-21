@@ -7,14 +7,14 @@ Comment them out when you don't want them to appear */
 /* Small devices (desktops, 768px and up) */
 @media (min-width: 768px) {
  * {
-   outline: 1px solid red !important;
+   outline: 1px solid red!important;
  }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
  * {
-   outline: 1px solid orange !important;
+   outline: 1px solid orange!important;
  }
 }
 
